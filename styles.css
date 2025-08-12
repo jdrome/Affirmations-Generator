@@ -29,4 +29,11 @@ body {
     font-size: 1.5em;
     color: #222; 
     text-align: center;
+
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.affirmation-text.fade-out {
+    opacity: 0;
 }
