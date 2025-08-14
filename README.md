@@ -12,9 +12,9 @@ A simple, responsive web app that generates positive affirmations at the click o
 Click the **EMBRACE** button to see a randomly selected affirmation from the app's internal list.
 
 ## Images
-
-
-
+<img width="250" height="424" alt="image" src="https://github.com/user-attachments/assets/55decb07-b21c-4692-8aef-69f0b4a69cf4" />
+<br>
+<img width="250" height="451" alt="image" src="https://github.com/user-attachments/assets/d62c33d0-0d51-452f-9f4b-eab54cdcfca3" />
 
 ## Technologies Used
 - HTML5
