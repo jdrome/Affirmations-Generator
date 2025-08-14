@@ -21,7 +21,7 @@ body {
     color: black;
     background-color: white;
     aspect-ratio: 1 / 1;
-    width: min(40vw, 240px);
+    width: min(60vw, 240px);
     border: 3px solid black;
     border-radius: 50%;
     
@@ -31,7 +31,7 @@ body {
 
 .affirmation-text {
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #222; 
     text-align: center;
     letter-spacing: 1px;
