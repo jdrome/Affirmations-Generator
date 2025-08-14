@@ -22,9 +22,8 @@ body {
     background-color: white;
     aspect-ratio: 1 / 1;
     width: min(40vw, 240px);
+    border: 3px solid black;
     border-radius: 50%;
-    border-width: 3px;
-    border-color: black;
     
     font-family: "Nunito Sans", sans-serif;
     font-size: 2em;
@@ -37,6 +36,7 @@ body {
     text-align: center;
     letter-spacing: 1px;
     line-height: 1.6;
+    max-width: 60ch;
 
     opacity: 1;
     transition: opacity 0.5s ease;
@@ -44,4 +44,8 @@ body {
 
 .affirmation-text.fade-out {
     opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .affirmation-text { transition: none; }
 }
