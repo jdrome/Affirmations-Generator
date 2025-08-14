@@ -37,6 +37,8 @@ body {
     letter-spacing: 1px;
     line-height: 1.6;
     max-width: 60ch;
+    padding-left: 4vw;
+    padding-right: 4vw;
 
     opacity: 1;
     transition: opacity 0.5s ease;
