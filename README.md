@@ -14,7 +14,7 @@ Click the **EMBRACE** button to see a randomly selected affirmation from the app
 ## Images
 ![White button marked with the word EMBRACE and text that says "Click the EMBRACE button to generate a new affirmation](image.png)
 
-![Text that says "I treat myself with love and kindness"](image-1.png)
+![Text that says "I treat myself with love and kindness"](image-1.png =250x)
 
 
 
