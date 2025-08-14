@@ -1,3 +1,4 @@
+// affirmations array
 const affirmations = [
     "I have a beautiful smile",
     "I have a brilliant mind",
@@ -37,11 +38,13 @@ const affirmations = [
     "I will allow myself to rest when my body needs it"
 ];
 
+// Selects message from array
 const selectMessage = () => {
     const index = Math.floor(Math.random() * affirmations.length);
     return affirmations[index];
 };
 
+// Puts new affirmation on document
 const newAffirmation = () => {
     const textElement = document.querySelector(".affirmation-text");
 
@@ -55,4 +58,5 @@ const newAffirmation = () => {
     }, 500)
 };
 
+// Generates affirmation when button is clicked
 document.querySelector(".main-button").addEventListener("click", newAffirmation);
